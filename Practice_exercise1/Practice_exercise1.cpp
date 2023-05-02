@@ -2,6 +2,7 @@
 
 void setMin();
 void getSeason();
+void getIceCream();
 
 int main()
 {
@@ -16,7 +17,8 @@ int main()
 	switch (in_number)
 	{
 	case 1:
-		std::cout << "In progress...\n";
+		//std::cout << "In progress...\n";
+		getIceCream();
 		break;
 	case 2:
 		setMin();

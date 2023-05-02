@@ -30,7 +30,7 @@ void setMin()
 	std::vector<int> arr;
 	std::string in_value;
 
-	std::cin.ignore(32767, '\n'); // игнорируем символы перевода строки "\n" во входящем потоке длиной 32767 символов
+	std::cin.ignore(32767, '\n'); 
 	std::cout << "Enter few positive numbers separated by Space: ";
 	std::getline(std::cin, in_value);
 
